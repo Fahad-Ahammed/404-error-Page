@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.main-container {
+    margin: 1.25em 1.5em;
+}
+
+.error-code {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.2rem;
+    font-weight: 520;
+    letter-spacing: -8%;
+    color: #333333;
+    margin-bottom: 3em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    width: 286px;
+    height: 238px;
+    margin: 0 auto;
+}
+
+.error-heading {
+    margin-top: 1em;
+    font-family: 'Space Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom: .75em;
+}
+
+.error-message {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #4F4F4F;
+    margin-bottom: 2.5em;
+}
+
+.btn {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    padding: 1.7em 3em;
+    background: #333333;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 7em;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #BDBDBD;
+    font-weight: 400;
+}
+
+.creator {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: bold;
+}
+
+@media (min-width:660px) {
+    .main-container {
+        margin-bottom: 0;
+        margin-left: 4em;
+    }
+    .content {
+        display: flex;
+        padding-right: 3em;
+        align-items: flex-start;
+    }
+    .error-code {
+        padding-top: 1.25em;
+        margin-bottom: 3em;
+    }
+    .message {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 43%;
+        margin-right: 10em;
+    }
+    .error-heading {
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.4;
+    }
+    .error-message {
+        font-size: 1.25rem;
+        width: 64%;
+    }
+    .btn {
+        margin-bottom: 0;
+    }
+    img {
+        object-fit: contain;
+        width: 486px;
+        height: 438px;
+        padding-top: 2em;
+        margin-left: 0;
+    }
+    .footer {
+        margin-top: 8em;
+    }
+}
